@@ -58,6 +58,7 @@ function init() {
     guardar.addEventListener("click", function(e) {
         let contenedor = document.getElementsByClassName("contenedor");
         localStorage.setItem("contenedor", contenedor[0].outerHTML);
+        alert("Guardado");
     });
 
     borrar.addEventListener("click", function(e) {
